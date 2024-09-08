@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 36,
+    "articles": [
+        {
+            "source": {
+                "id": "the-washington-post",
+                "name": "The Washington Post"
+            },
+            "author": "Dan Rosenzweig-Ziff",
+            "title": "Missouri abortion rights measure is invalid, judge says days before deadline - The Washington Post",
+            "description": "The judge said he wouldn’t order the measure removed from the ballot until Tuesday, the deadline for printing the ballots, to allow abortion rights groups to appeal.",
+            "url": "https://www.washingtonpost.com/politics/2024/09/07/missouri-judge-abortion-measure-invalid/",
+            "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/PRAIIXF6VII63E2QPRP4ZVMYVU_size-normalized.jpg&w=1440",
+            "publishedAt": "2024-09-07T20:45:26Z",
+            "content": "A Missouri judge ruled that an abortion ballot measure is invalid because it did not properly note what laws it would repeal, potentially restricting it from reaching a November vote.\r\nCole County Ci… [+4845 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Dalia Faheid",
+            "title": "Georgia school shooting suspect expected to face more charges as accounts of students’ heroism emerge - CNN",
+            "description": "A 14-year-old student charged with four counts of murder after a mass shooting earlier this week at Apalachee High School is expected to face additional charges accounting for the injured victims, officials said Friday.",
+            "url": "https://www.cnn.com/2024/09/07/us/apalachee-school-shooting-georgia-saturday/index.html",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2169894070.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2024-09-07T19:54:00Z",
+            "content": "A 14-year-old student charged with four counts of murder after a mass shooting earlier this week at Apalachee High School is expected to face additional charges accounting for the injured victims, of… [+9158 chars]"
+        },
+        {
+            "source": {
+                "id": "espn",
+                "name": "ESPN"
+            },
+            "author": "Rob Demovsky",
+            "title": "Sources: Pack's Love believed to have MCL injury - ESPN",
+            "description": "Packers QB Jordan Love is believed to have sprained his MCL during Friday night's game in Brazil, sources told ESPN's Adam Schefter. The team hopes it is a 3-4 week injury, sources said.",
+            "url": "https://www.espn.com/nfl/story/_/id/41165314/green-bay-packers-qb-jordan-love-believed-injured-mcl",
+            "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F0907%2Fr1383302_1296x729_16%2D9.jpg",
+            "publishedAt": "2024-09-07T19:49:00Z",
+            "content": "GREEN BAY, Wis. -- Green Bay Packers quarterback Jordan Love is expected to miss multiple weeks after suffering what is believed to be a sprained MCL during Friday night's season-opening loss to the … [+1829 chars]"
+        },
+        {
+            "source": {
+                "id": "fox-news",
+                "name": "Fox News"
+            },
+            "author": "Christine Rousselle",
+            "title": "Ingredient found in Doritos turns mouse's skin transparent, may have medical applications - Fox News",
+            "description": "A discovery that a common food dye temporarily caused a mouse's skin to appear transparent could have wide-ranging effects on the medical industry, the researcher told Fox News Digital.",
+            "url": "https://www.foxnews.com/food-drink/ingredient-found-doritos-turns-mouses-skin-transparent-medical-applications",
+            "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2024/09/mice-tartrazine.jpg",
+            "publishedAt": "2024-09-07T19:44:00Z",
+            "content": "Scientists at Stanford University were recently able to make a mouse's skin transparent using a common food dye, something the study's author told Fox News Digital could have exciting benefits to hum… [+3444 chars]"
+        },
+        {
+            "source": {
+                "id": "usa-today",
+                "name": "USA Today"
+            },
+            "author": "Blake Toppmeyer",
+            "title": "No. 3 Texas, Quinn Ewers don't need karma in dominating defeat of No. 9 Michigan - USA TODAY",
+            "description": "Some might call this Michigan's comeuppance after a season of cheating allegations, but Texas football didn't need karma's help to smash Wolverines.",
+            "url": "https://www.usatoday.com/story/sports/ncaaf/2024/09/07/texas-michigan-score-quinn-ewers-karma/75044809007/",
+            "urlToImage": "https://www.usatoday.com/gcdn/authoring/authoring-images/2024/09/07/USAT/75123296007-usatsi-24176728.jpg?crop=3014,1696,x278,y381&width=3014&height=1696&format=pjpg&auto=webp",
+            "publishedAt": "2024-09-07T19:40:11Z",
+            "content": "<ul><li>Some might call this Michigan's comeuppance after a season of cheating allegations, but Texas didn't need karma's help to smash the Wolverines.</li><li>Quinn Ewers outdueled Davis Warren, and… [+4915 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "TMZ"
+            },
+            "author": "TMZ Staff",
+            "title": "Nicole Kidman Leaves Venice Film Festival After Mother's Death - TMZ",
+            "description": "Nicole Kidman's dealing with a tragedy in the family ... leaving the Venice Film Festival abruptly after her mother's death.",
+            "url": "https://www.tmz.com/2024/09/07/nicole-kidman-leaves-venice-film-festival-mom-death/",
+            "urlToImage": "https://imagez.tmz.com/image/b0/16by9/2024/09/07/b0fd6937aeaf4509b00a58098d0ded3a_xl.jpg",
+            "publishedAt": "2024-09-07T19:25:18Z",
+            "content": "Nicole Kidman's dealing with a tragedy in the family ... leaving the Venice Film Festival abruptly after her mother's death.\r\nHalina Reijn -- director of Nicole's new movie \"Babygirl\" -- accepted the… [+1149 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "NPR"
+            },
+            "author": "",
+            "title": "Former VP Dick Cheney says he will vote for Harris - NPR",
+            "description": "Former Vice President Dick Cheney said his decision had to do with Trump's attempts to overturn the 2020 presidential election.",
+            "url": "https://www.npr.org/2024/09/07/nx-s1-5104718/dick-cheney-voting-kamala-harris-trump-election",
+            "urlToImage": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4581x2577+0+229/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb7%2F3d%2F34da533e499993761f04c5715105%2Fgettyimages-658298730.jpg",
+            "publishedAt": "2024-09-07T19:24:00Z",
+            "content": "Former Vice President Dick Cheney said he plans to vote for Vice President Kamala Harris instead of former President Donald Trump explaining that his decision had to do with Trump's attempts to overt… [+2224 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "Kari Anderson",
+            "title": "Jamal Murray agrees to four-year, $208 million max extension to stay with Denver Nuggets - Yahoo Sports",
+            "description": "Murray will receive $244 million guaranteed over the next five years as part of the deal.",
+            "url": "https://sports.yahoo.com/jamal-murray-agrees-to-four-year-208-million-max-extension-to-stay-with-denver-nuggets-185901936.html",
+            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/NOhsOEuCY61uG30LnEXATQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2024-08/605fb560-6d49-11ef-bffb-0bd760f8ebd0",
+            "publishedAt": "2024-09-07T18:59:01Z",
+            "content": "Jamal Murray has been a key piece of the Nuggets since being drafted by Denver in 2016. (Photo by David Berding/Getty Images)\r\nJamal Murray is staying in Colorado long-term. The star point guard has … [+1211 chars]"
+        },
+        {
+            "source": {
+                "id": "the-jerusalem-post",
+                "name": "The Jerusalem Post"
+            },
+            "author": "By  JERUSALEM POST STAFF",
+            "title": "‘Terrorist eliminated': IDF documents close-quarters elimination of terrorists in southern Gaza - The Jerusalem Post",
+            "description": "In one of the 932nd Battalion’s raids on terror infrastructure in the Tel Al-Sultan area, a terrorist reportedly threw a grenade at the Israeli forces, who responded with fire.",
+            "url": "https://www.jpost.com/israel-hamas-war/article-819115",
+            "urlToImage": "https://images.jpost.com/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_407,w_690/620468",
+            "publishedAt": "2024-09-07T18:54:24Z",
+            "content": "The military reported that it had succeeded in killing dozens of terrorists and raiding terrorist infrastructure in the area in a Saturday evening operational update on IDF activities in Tel Al-Sulta… [+1567 chars]"
+        },
+        {
+            "source": {
+                "id": "usa-today",
+                "name": "USA Today"
+            },
+            "author": "Ahjané Forbes",
+            "title": "Egg recall issued by CDC is linked to a salmonella outbreak: See which states are impacted - USA TODAY",
+            "description": "The FDA and CDC are investigating a salmonella outbreak linked to eggs. The eggs are now being recalled in nine states.",
+            "url": "https://www.usatoday.com/story/money/food/2024/09/07/egg-recall-2024-cdc-salmonella-outbreak/75121108007/",
+            "urlToImage": "https://www.usatoday.com/gcdn/authoring/authoring-images/2024/09/07/USAT/75121623007-usatsi-22104787.jpg?crop=3723,2094,x0,y0&width=3200&height=1800&format=pjpg&auto=webp",
+            "publishedAt": "2024-09-07T18:00:00Z",
+            "content": "The Centers for Disease Control and Prevention (CDC) is issuing a recall on eggs linked to a salmonella outbreak. The CDC and U.S. Food and Drug Administration (FDA) are both investigating.\r\nAcross n… [+5747 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "KABC-TV"
+            },
+            "author": null,
+            "title": "3.5 magnitude earthquake strikes Ontario, USGS says - ABC7 Los Angeles",
+            "description": "Two separate earthquakes struck Ontario Saturday morning, according to the U.S. Geological Survey.",
+            "url": "https://abc7.com/post/35-magnitude-earthquake-strikes-ontario-usgs-says/15276887/",
+            "urlToImage": "https://cdn.abcotvs.com/dip/images/15276945_first-quake.jpg?w=1600",
+            "publishedAt": "2024-09-07T17:35:13Z",
+            "content": "ONTARIO, Calif. (KABC) -- Two separate earthquakes struck Ontario Saturday morning, according to the U.S. Geological Survey.\r\nThe first 3.5 magnitude earthquake struck around 10:05 a.m. and was cente… [+561 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "BBC News"
+            },
+            "author": null,
+            "title": "Kamala Harris's pain-free US election campaign faces first crunch moment - BBC.com",
+            "description": "She avoided the challenges and scrutiny of a bitter Democratic primary, so Tuesday's debate entails even higher stakes.",
+            "url": "https://www.bbc.com/news/articles/cm2373mz3k2o",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/4be8/live/779fc880-6c92-11ef-b970-9f202720b57a.jpg",
+            "publishedAt": "2024-09-07T17:21:54Z",
+            "content": "Ms Harris completely avoided the tough moments and scrutiny that comes with challenging for the Democratic nomination\r\nIn American politics its customary to suggest that most voters dont start paying… [+5527 chars]"
+        },
+        {
+            "source": {
+                "id": "nbc-news",
+                "name": "NBC News"
+            },
+            "author": "Mirna Alsharif",
+            "title": "Oregon nurse found dead after 'unusual and alarming' disappearance, neighbor charged with murder - NBC News",
+            "description": "The body of an Oregon nurse who went missing earlier this week has been found and her neighbor has been arrested and charged with her murder, police said Saturday.",
+            "url": "https://www.nbcnews.com/news/us-news/oregon-nurse-found-dead-unusual-alarming-disappearance-neighbor-charge-rcna170054",
+            "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2024-09/240907-oregon-nurse-ch-1159-339ddd.jpg",
+            "publishedAt": "2024-09-07T17:05:59Z",
+            "content": "The body of an Oregon nurse who went missing earlier this week has been found and her neighbor has been arrested and charged with her murder, police said Saturday. \r\nOfficers with the Beaverton Polic… [+1717 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Variety"
+            },
+            "author": "Jessica Kiang",
+            "title": "Venice Film Festival Award Winners List (Updating Live) - Variety",
+            "description": "All the winners from the awards ceremony at this year's Venice Film Festival, updating live.",
+            "url": "https://variety.com/2024/film/awards/venice-film-festival-winners-list-golden-lion-1236136216/",
+            "urlToImage": "https://variety.com/wp-content/uploads/2024/09/GettyImages-2170714114.jpg?w=1000&h=563&crop=1",
+            "publishedAt": "2024-09-07T17:05:00Z",
+            "content": "The Venice Film Festival drew to a close this evening with its glamorous awards gala, and though the feeling on the ground was that the 21-title-strong main competition was a touch off the pace of re… [+3599 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "FRANCE 24 English"
+            },
+            "author": "FRANCE 24 English",
+            "title": "French protesters rage at ‘stolen election’ as Macron picks conservative Barnier for PM - FRANCE 24 English",
+            "description": null,
+            "url": "https://www.france24.com/en/france/20240907-french-protesters-rage-at-stolen-election-as-macron-picks-conservative-barnier-for-pm",
+            "urlToImage": null,
+            "publishedAt": "2024-09-07T16:54:56Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "HarpersBAZAAR.com"
+            },
+            "author": "Maya Ernest",
+            "title": "Taylor Swift and Travis Kelce Coordinate Their Bejeweled Date Night Outfits - Harper's BAZAAR",
+            "description": "Taylor Swift and Travis Kelce shared the same mindset, at least sartorially, when they stepped out for dinner on Friday night.",
+            "url": "https://www.harpersbazaar.com/celebrity/latest/a62093568/taylor-swift-travis-kelce-date-night-coordinating-outfits/",
+            "urlToImage": "https://hips.hearstapps.com/hmg-prod/images/bgus-3019938-005-66dc7a6313279.jpg?crop=1.00xw:0.359xh;0,0.0286xh&resize=1200:*",
+            "publishedAt": "2024-09-07T16:15:00Z",
+            "content": "Taylor Swift\r\n and Travis Kelce\r\n shared the same mindset, at least sartorially, when they stepped out for dinner on Friday night. \r\nCelebrating their recent reunion\r\nand of course, Kelces first NFL … [+1718 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "nj.com"
+            },
+            "author": "Katie Kausch | NJ Advance Media for NJ.com",
+            "title": "COVID is ‘high’ or ‘very high’ in almost every state. N.J.’s level just went up. - NJ.com",
+            "description": "Virus levels in New Jersey's wastewater have risen for the last two reporting periods.",
+            "url": "https://www.nj.com/coronavirus/2024/09/covid-is-high-or-very-high-in-almost-every-state-njs-level-just-went-up.html",
+            "urlToImage": "https://www.nj.com/resizer/v2/QV2SZEYEV5HOBH7WWLNWQI3XNE.jpg?auth=2f19cb6ecb81cff75c36917f820e75823bebfdb4785272be569c3d0d0d408e6a&width=1280&quality=90",
+            "publishedAt": "2024-09-07T16:00:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "nbc-news",
+                "name": "NBC News"
+            },
+            "author": "Reuters",
+            "title": "Super Typhoon Yagi kills four in Vietnam after casualties in China and Philippines - NBC News",
+            "description": "Asia’s most powerful storm this year made landfall in northern Vietnam on Saturday, the meteorological agency said, killing at least four people after tearing through China’s island of Hainan and the Philippines.",
+            "url": "https://www.nbcnews.com/news/world/super-typhoon-yagi-kills-four-vietnam-casualties-china-philippines-rcna170046",
+            "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2024-09/240907-yagi-ch-1025-88c3ab.jpg",
+            "publishedAt": "2024-09-07T15:54:45Z",
+            "content": "Asias most powerful storm this year made landfall in northern Vietnam on Saturday, the meteorological agency said, killing at least four people after tearing through Chinas island of Hainan and the P… [+3132 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "NPR"
+            },
+            "author": "",
+            "title": "First case of bird flu not directly linked to sick animals is found in Missouri - NPR",
+            "description": "So far, there have been 14 human cases of bird flu this year. All the patients — except the one from Missouri — had been linked to sick dairy cows or poultry.",
+            "url": "https://www.npr.org/2024/09/07/nx-s1-5104656/bird-flu-missouri-patient-cdc",
+            "urlToImage": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8256x4644+0+430/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa9%2F47%2F2668f895432987466718bed81cc1%2Fgettyimages-1246532789.jpg",
+            "publishedAt": "2024-09-07T15:30:56Z",
+            "content": "Health officials have identified a person in Missouri sick with bird flu despite having no known contact with animals marking the first case of the virus in the U.S. this year not linked to farm work… [+1464 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "David Shepardson",
+            "title": "Chrysler parent Stellantis recalls 1.46 million vehicles worldwide - Reuters",
+            "description": "Chrysler parent Stellantis said Saturday it is recalling 1.46 million vehicles worldwide due to a software malfunction in the anti-lock brake system that can increase the risk of a crash.",
+            "url": "https://www.reuters.com/business/autos-transportation/stellantis-recall-about-12-million-vehicles-us-regulators-say-2024-09-07/",
+            "urlToImage": "https://www.reuters.com/resizer/v2/PR2FAW2J7RIJNLJFWSLZFBXIBA.jpg?auth=b0fbc1f6b96fa24c64cecb1a826665db85f4d423cbace8ca72575e55562632cd&height=1005&width=1920&quality=80&smart=true",
+            "publishedAt": "2024-09-07T15:27:00Z",
+            "content": null
+        }
+    ]
+}
