@@ -64,8 +64,8 @@ export class News extends Component {
           })}
         </div>
         <div className="container d-flex justify-content-end ">
-        <button disabled ={this.state.page<=1} type="button" class="btn btn-outline-secondary btn-lg mx-2" onClick={this.previouspagehandler}>&#8617;</button> 
-        <button type="button" class="btn btn-outline-primary btn-lg" onClick={this.nextpagehandler}>&#8618;</button>
+        <button disabled ={this.state.page<=1} type="button" className="btn btn-outline-secondary btn-lg mx-2" onClick={this.previouspagehandler}>&#8617;</button> 
+        <button type="button" className="btn btn-outline-primary btn-lg" onClick={this.nextpagehandler}>&#8618;</button>
         </div>
       </div>
     );
