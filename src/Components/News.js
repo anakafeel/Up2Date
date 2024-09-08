@@ -8,13 +8,13 @@ export class News extends Component {
         <h2>Up2Date Recent Headlines</h2>
         <div className="row">
           <div className="col-md-4">
-            <NewsItem title="My Title" description="My description" imageURL ="/" />
+            <NewsItem title="My Title" description="My description" imageURL ="/" newsURL="/" />
           </div>
           <div className="col-md-4">
-            <NewsItem title="My Title" description="My description" imageURL ="/" />
+            <NewsItem title="My Title" description="My description" imageURL ="/" newsURL="/" />
           </div>
           <div className="col-md-4">
-            <NewsItem title="My Title" description="My description" imageURL ="/" />
+            <NewsItem title="My Title" description="My description" imageURL ="/" newsURL="/" />
           </div>
         </div>
       </div>
