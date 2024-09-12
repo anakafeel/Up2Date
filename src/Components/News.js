@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import NewsItem from "./NewsItem";
 import { motion } from "framer-motion";
+import Loading from "./Loading";
 
 export class News extends Component {
   /* METHOD - 1 -> COMPONENT DID MOUNT */
@@ -15,12 +16,14 @@ export class News extends Component {
 
   async componentDidMount() {
     let url = `https://newsapi.org/v2/top-headlines?country=us&apiKey=f24cdd8716d14d5baca39eaa037aae25&page=1&pageSize=${this.props.pageSize}`;
+    this.setState({loading: true});
     let data = await fetch(url);
     let jsondata = await data.json();
     console.log(jsondata);
     this.setState({
       articles: jsondata.articles,
       totalResults: jsondata.totalResults,
+      loading: false,
     });
     /* DEBUGGING */
 /*     console.log("Total Results: ", jsondata.totalResults); */
@@ -44,12 +47,14 @@ export class News extends Component {
       let url = `https://newsapi.org/v2/top-headlines?country=us&apiKey=f24cdd8716d14d5baca39eaa037aae25&page=${
         this.state.page + 1
       }&pageSize=${this.props.pageSize}`;
+      this.setState({loading: true});
       let data = await fetch(url);
       let jsondata = await data.json();
       console.log(jsondata);
       this.setState({
         page: this.state.page + 1,
         articles: jsondata.articles,
+        loading: false,
       });
     }
   };
@@ -59,12 +64,14 @@ export class News extends Component {
     let url = `https://newsapi.org/v2/top-headlines?country=us&apiKey=f24cdd8716d14d5baca39eaa037aae25&page=${
       this.state.page - 1
     }&pageSize=${this.props.pageSize}`;
+    this.setState({loading: true});
     let data = await fetch(url);
     let jsondata = await data.json();
     console.log(jsondata);
     this.setState({
       page: this.state.page - 1,
       articles: jsondata.articles,
+      loading: false,
     });
   };
 
@@ -79,8 +86,9 @@ export class News extends Component {
         >
           Up2Date Top Recent Headlines:{" "}
         </motion.h2>
+        {this.state.loading && <Loading/>}
         <div className="row">
-          {this.state.articles.map((element) => {
+          {!this.state.loading && this.state.articles.map((element) => {
             return (
               <motion.div
                 initial={{ x: -2000 }}
