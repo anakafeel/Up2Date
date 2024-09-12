@@ -20,17 +20,27 @@ export class News extends Component {
     console.log(jsondata);
     this.setState({
       articles: jsondata.articles,
-      totalArticles: jsondata.totalResults,
+      totalResults: jsondata.totalResults,
     });
+    /* DEBUGGING */
+/*     console.log("Total Results: ", jsondata.totalResults); */
   }
 
   nextpagehandler = async () => {
-    console.log("Next");
+    /* DEBUGGING */
+/*     console.log("Next");
+    console.log("Page: ", this.state.page); // Log current page
+    console.log(
+      "Total Pages: ",
+      Math.ceil(this.state.totalResults / this.props.pageSize)
+    ); // Log calculated total pages */
+
+
+    /* NEW LOGIC */
     if (
-      this.state.page + 1 >
+      this.state.page + 1 <=
       Math.ceil(this.state.totalResults / this.props.pageSize)
     ) {
-    } else {
       let url = `https://newsapi.org/v2/top-headlines?country=us&apiKey=f24cdd8716d14d5baca39eaa037aae25&page=${
         this.state.page + 1
       }&pageSize=${this.props.pageSize}`;
@@ -65,7 +75,7 @@ export class News extends Component {
           className="text-center"
           initial={{ y: -200 }}
           animate={{ y: 0 }}
-          transition={{ type:"spring", delay:0.5, duration:1 }}
+          transition={{ type: "spring", delay: 0.5, duration: 1 }}
         >
           Up2Date Top Recent Headlines:{" "}
         </motion.h2>
@@ -73,12 +83,14 @@ export class News extends Component {
           {this.state.articles.map((element) => {
             return (
               <motion.div
-              initial={{x:-2000}}
-              animate={{x:0}}
-/*               whileHover={{ scale: 1.1 }}
+                initial={{ x: -2000 }}
+                animate={{ x: 0 }}
+                /*               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }} */
-              transition={{type:"spring",delay:0.5 }}
-              className="col-md-3 my-5 " key={element.url}>
+                transition={{ type: "spring", delay: 0.5 }}
+                className="col-md-3 my-5 "
+                key={element.url}
+              >
                 <NewsItem
                   title={element.title ? element.title : ""}
                   description={element.description ? element.description : ""}
@@ -101,7 +113,7 @@ export class News extends Component {
           <button
             type="button"
             disabled={
-              this.state.page + 1 >
+              this.state.page >=
               Math.ceil(this.state.totalResults / this.props.pageSize)
             }
             className="btn btn-outline-primary btn-lg my-2"
