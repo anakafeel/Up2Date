@@ -93,9 +93,13 @@ export class News extends Component {
       <div className="container my-3">
         <motion.h2
           className="text-center"
-          initial={{ y: -200 }}
+          initial={{ y: -200, rotate: 0 }}
           animate={{ y: 0 }}
           transition={{ type: "spring", delay: 0.5, duration: 1 }}
+          whileHover={{
+            rotate: -5,
+            transition: { duration: 0.2 },
+          }}
         >
           Up2Date Top Recent Headlines:{" "}
         </motion.h2>
@@ -106,8 +110,6 @@ export class News extends Component {
               <motion.div
                 initial={{ x: -2000 }}
                 animate={{ x: 0 }}
-                /*               whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.9 }} */
                 transition={{ type: "spring", delay: 0.5 }}
                 className="col-md-3 my-5 "
                 key={element.url}
