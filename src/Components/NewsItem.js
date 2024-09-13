@@ -9,6 +9,7 @@ export class NewsItem extends Component {
         <motion.div
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
+          transition={{ duration: 0.4 }}
           className="card"
           style={{ height: "38rem" }}
         >

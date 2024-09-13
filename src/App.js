@@ -7,7 +7,7 @@ import React, { Component } from 'react'
 export default class App extends Component {
   render() {
     return (
-      <div style={{ backgroundColor: 'white', minHeight: '100vh' }}>
+      <div>
         <Navbar/>
         <News pageSize={8}/>
       </div>

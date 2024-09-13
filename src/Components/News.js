@@ -83,7 +83,6 @@ export class News extends Component {
           initial={{ y: -200 }}
           animate={{ y: 0 }}
           transition={{ type: "spring", delay: 0.5, duration: 1 }}
-          style={{color: '#3D405B'}}
         >
           Up2Date Top Recent Headlines:{" "}
         </motion.h2>
