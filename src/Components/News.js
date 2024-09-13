@@ -97,8 +97,8 @@ export class News extends Component {
           animate={{ y: 0 }}
           transition={{ type: "spring", delay: 0.5, duration: 1 }}
           whileHover={{
-            rotate: -5,
-            transition: { duration: 0.2 },
+            scale: 1.2, 
+            transition: { duration: 0.5 },
           }}
         >
           Up2Date Top Recent Headlines:{" "}

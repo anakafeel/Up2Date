@@ -1,26 +1,25 @@
-import React, { Component } from "react";
-import { motion } from "framer-motion";
+import React, { Component } from 'react';
+import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 export class Navbar extends Component {
   render() {
     return (
       <div>
-        <nav
-          className="navbar navbar-expand-lg bg-body-primary"
-          style={{ backgroundColor: "#3D405B" }}
-        >
+        <nav className="navbar navbar-expand-lg bg-body-primary" style={{ backgroundColor: '#3D405B' }}>
           <div className="container-fluid">
             <motion.a
               className="navbar-brand"
-              href="/"
-              style={{ color: "#ffffff", fontSize: "1.5rem" }} 
+              to="/"
+              style={{ color: '#ffffff', fontSize: '1.5rem' }}
               initial={{ rotate: 0 }}
               whileHover={{
-                color: "#F4A261", 
+                color: '#F4A261',
                 rotate: -5,
-                scale: 1.2, 
+                scale: 1.2,
                 transition: { duration: 0.2 },
               }}
+              component={Link} // Ensure to use Link for navigation
             >
               Up2Date
             </motion.a>
@@ -38,24 +37,23 @@ export class Navbar extends Component {
             </button>
 
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
-                {["Home", "Business", "Entertainment", "General", "Health", "Science", "Sports", "Technology"].map(
-                  (category, index) => (
-                    <motion.li key={index} className="nav-item">
-                      <motion.a
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                {['Home', 'Business', 'Entertainment', 'General', 'Health', 'Science', 'Sports', 'Technology'].map((category, index) => (
+                  <li className="nav-item" key={index}>
+                    <motion.div
+                      whileHover={{ scale: 1.1, transition: { duration: 0.2 } }}
+                      style={{ display: 'inline-block' }}
+                    >
+                      <Link
                         className="nav-link"
-                        href={`/${category.toLowerCase()}`}
-                        style={{ color: "#ffffff" }}
-                        whileHover={{
-                          scale: 1.1, // Slight scale on hover
-                          transition: { duration: 0.2 }, // Smooth transition
-                        }}
+                        to={`/${category.toLowerCase()}`}
+                        style={{ color: '#ffffff' }}
                       >
                         {category}
-                      </motion.a>
-                    </motion.li>
-                  )
-                )}
+                      </Link>
+                    </motion.div>
+                  </li>
+                ))}
               </ul>
 
               <form className="d-flex" role="search">
