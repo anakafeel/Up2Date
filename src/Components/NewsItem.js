@@ -10,7 +10,7 @@ export class NewsItem extends Component {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
           className="card"
-          style={{ width: "18rem" }}
+          style={{ height: "38rem" }}
         >
           <img
             src={
@@ -21,9 +21,9 @@ export class NewsItem extends Component {
             className="card-img-top"
             alt="..."
           />
-          <div className="card-body ">
+          <div className="card-body d-flex flex-column">
             <h5 className="card-title">{title}</h5>
-            <p className="card-text">{description}</p>
+            <p className="card-text flex-grow-1">{description}</p>
             <motion.a
               whileHover={{ opacity: 1 }}
               initial={{ opacity: 0.5 }}
