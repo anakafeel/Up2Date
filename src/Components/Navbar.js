@@ -38,7 +38,7 @@ export class Navbar extends Component {
 
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                {['Home', 'Business', 'Entertainment', 'General', 'Health', 'Science', 'Sports', 'Technology'].map((category, index) => (
+                {['Business', 'Entertainment', 'General', 'Health', 'Science', 'Sports', 'Technology'].map((category, index) => (
                   <li className="nav-item" key={index}>
                     <motion.div
                       whileHover={{ scale: 1.1, transition: { duration: 0.2 } }}

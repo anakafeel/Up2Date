@@ -93,13 +93,9 @@ export class News extends Component {
       <div className="container my-3">
         <motion.h2
           className="text-center"
-          initial={{ y: -200, rotate: 0 }}
+          initial={{ y: -200}}
           animate={{ y: 0 }}
           transition={{ type: "spring", delay: 0.5, duration: 1 }}
-          whileHover={{
-            scale: 1.2, 
-            transition: { duration: 0.5 },
-          }}
         >
           Up2Date Top Recent Headlines:{" "}
         </motion.h2>
@@ -119,6 +115,8 @@ export class News extends Component {
                   description={element.description ? element.description : ""}
                   imageUrl={element.urlToImage}
                   newsUrl={element.url}
+                  author={element.author}
+                  date={element.publishedAt}
                 />
               </motion.div>
             );

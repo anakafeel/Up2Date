@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export class NewsItem extends Component {
   render() {
-    const { title, description, imageUrl, newsUrl } = this.props;
+    const { title, description, imageUrl, newsUrl, author, date } = this.props;
     return (
       <div>
         <motion.div
@@ -25,6 +25,7 @@ export class NewsItem extends Component {
           <div className="card-body d-flex flex-column">
             <h5 className="card-title">{title}</h5>
             <p className="card-text flex-grow-1">{description}</p>
+            <p className="card-text"><small className="text-muted">Published by {!author?"Unknown":author} on {new Date(date).toGMTString()}</small></p>
             <motion.a
               whileHover={{ opacity: 1 }}
               initial={{ opacity: 0.5 }}
