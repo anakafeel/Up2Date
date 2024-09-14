@@ -19,7 +19,7 @@ export class Navbar extends Component {
                 scale: 1.2,
                 transition: { duration: 0.2 },
               }}
-              component={Link} // Ensure to use Link for navigation
+              component={Link}
             >
               Up2Date
             </motion.a>

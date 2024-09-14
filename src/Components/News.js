@@ -45,12 +45,12 @@ export class News extends Component {
   }
 
   nextpagehandler = async () => {
-   this.setState({page: this.state.page + 1});
-   this.updateNews();
+    this.setState({ page: this.state.page + 1 });
+    this.updateNews();
   };
 
   previouspagehandler = async () => {
-    this.setState({page: this.state.page - 1})
+    this.setState({ page: this.state.page - 1 });
     this.updateNews();
   };
 
@@ -63,7 +63,7 @@ export class News extends Component {
           animate={{ y: 0 }}
           transition={{ type: "spring", delay: 0.5, duration: 1 }}
         >
-          Up2Date Top Recent Headlines:{" "}
+          Up2Date Top Headlines - {this.props.category}{" "}
         </motion.h2>
         {this.state.loading && <Loading />}
         <div className="row">
