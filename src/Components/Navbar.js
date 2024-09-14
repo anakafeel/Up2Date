@@ -6,7 +6,7 @@ export class Navbar extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-expand-lg bg-body-primary" style={{ backgroundColor: '#3D405B' }}>
+        <nav className="navbar fixed-top navbar-expand-lg bg-body-primary" style={{ backgroundColor: '#3D405B' }}>
           <div className="container-fluid">
             <motion.a
               className="navbar-brand"

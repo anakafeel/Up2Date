@@ -72,6 +72,7 @@ export class News extends Component {
           initial={{ y: -200}}
           animate={{ y: 0 }}
           transition={{ type: "spring", delay: 0.5, duration: 1 }}
+          style={{ paddingTop: '4rem' }}
           >
           Up2Date Top Headlines - {this.props.category}{" "}
         </motion.h2>
@@ -116,8 +117,7 @@ export class News extends Component {
         </div>
         </div>
         </InfiniteScroll>
-
-            </>
+        </>
     );
   }
 }
