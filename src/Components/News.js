@@ -3,6 +3,7 @@ import NewsItem from "./NewsItem";
 import { motion } from "framer-motion";
 import Loading from "./Loading";
 import PropTypes from "prop-types";
+import InfiniteScroll from "react-infinite-scroll-component";
 
 export class News extends Component {
   static defaultProps = {
@@ -23,60 +24,84 @@ export class News extends Component {
     this.state = {
       articles: [],
       loading: true,
+      totalResults: 0,
       page: 1,
     };
   }
 
   async updateNews() {
+    this.props.setProgress(10);
     const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=f24cdd8716d14d5baca39eaa037aae25&page=${this.state.page}&pageSize=${this.props.pageSize}`;
     this.setState({ loading: true });
     let data = await fetch(url);
+    this.props.setProgress(30);
     let jsondata = await data.json();
+    this.props.setProgress(60);
     console.log(jsondata);
     this.setState({
       articles: jsondata.articles,
       totalResults: jsondata.totalResults,
       loading: false,
     });
+    this.props.setProgress(100);
   }
 
   async componentDidMount() {
     this.updateNews();
   }
 
-  nextpagehandler = async () => {
-    this.setState({ page: this.state.page + 1 });
-    this.updateNews();
-  };
 
-  previouspagehandler = async () => {
-    this.setState({ page: this.state.page - 1 });
-    this.updateNews();
+  fetchMoreData = async() => {
+    this.setState({page: this.state.page + 1});
+    const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=f24cdd8716d14d5baca39eaa037aae25&page=${this.state.page}&pageSize=${this.props.pageSize}`;
+    let data = await fetch(url);
+    let jsondata = await data.json();
+    console.log(jsondata);
+    this.setState({
+      articles: this.state.articles.concat(jsondata.articles),
+      totalResults: jsondata.totalResults,
+    });
+
   };
 
   render() {
     return (
-      <div className="container my-3">
+      <>
         <motion.h2
-          className="text-center"
-          initial={{ y: -200 }}
+          className="text-center my-3" 
+          initial={{ y: -200}}
           animate={{ y: 0 }}
           transition={{ type: "spring", delay: 0.5, duration: 1 }}
-        >
+          >
           Up2Date Top Headlines - {this.props.category}{" "}
         </motion.h2>
-        {this.state.loading && <Loading />}
+        {this.state.loading && <Loading/>}
+
+        <InfiniteScroll
+          dataLength={this.state.articles.length}
+          next={this.fetchMoreData}
+          hasMore={this.state.articles.length !== this.state.totalResults}
+          loader={Loading}
+          >
+
+            <div className="container">
+
+            
         <div className="row">
-          {!this.state.loading &&
-            this.state.articles.map((element) => {
-              return (
-                <motion.div
-                  initial={{ x: -2000 }}
-                  animate={{ x: 0 }}
-                  transition={{ type: "spring", delay: 0.5 }}
-                  className="col-md-3 my-5 "
-                  key={element.url}
-                >
+          { this.state.articles.map((element) => {
+            return (
+              <motion.div
+              variants={{
+                visible: { opacity: 1, scale: 1 },
+                hidden: { opacity: 0, scale: 0 }
+              }}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              transition={{ duration: 0.3 }}
+              className="col-md-3 my-5 " 
+              key={element.url}
+              >
                   <NewsItem
                     title={element.title ? element.title : ""}
                     description={element.description ? element.description : ""}
@@ -84,33 +109,15 @@ export class News extends Component {
                     newsUrl={element.url}
                     author={element.author}
                     date={element.publishedAt}
-                  />
+                    />
                 </motion.div>
               );
             })}
         </div>
-        <div className="container d-flex justify-content-end ">
-          <button
-            disabled={this.state.page <= 1}
-            type="button"
-            className="btn btn-outline-danger btn-lg mx-2 my-2"
-            onClick={this.previouspagehandler}
-          >
-            Previous Page
-          </button>
-          <button
-            type="button"
-            disabled={
-              this.state.page >=
-              Math.ceil(this.state.totalResults / this.props.pageSize)
-            }
-            className="btn btn-outline-primary btn-lg my-2"
-            onClick={this.nextpagehandler}
-          >
-            Next Page
-          </button>
         </div>
-      </div>
+        </InfiniteScroll>
+
+            </>
     );
   }
 }
